@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html lang="de">
+	<head>
+		<title>M152 Landscape</title>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen" />
+
+		<link rel="stylesheet" href="css/photoswipe.css">
+		<link rel="stylesheet" href="css/default-skin/default-skin.css">
+
+	</head>
+	<body class="landing">
+
+		<!-- Root element of PhotoSwipe. Must have class pswp. -->
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+		    <!-- Background of PhotoSwipe.
+		         It's a separate element as animating opacity is faster than rgba(). -->
+		    <div class="pswp__bg"></div>
+		    <!-- Slides wrapper with overflow:hidden. -->
+		    <div class="pswp__scroll-wrap">
+		        <!-- Container that holds slides.
+		            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+		            Don't modify these 3 pswp__item elements, data is added later on. -->
+		        <div class="pswp__container">
+		            <div class="pswp__item"></div>
+		            <div class="pswp__item"></div>
+		            <div class="pswp__item"></div>
+		        </div>
+		        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+		        <div class="pswp__ui pswp__ui--hidden">
+		            <div class="pswp__top-bar">
+		                <!--  Controls are self-explanatory. Order can be changed. -->
+		                <div class="pswp__counter"></div>
+		                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+		                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+		                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+		                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+		                <!-- element will get class pswp__preloader-active when preloader is running -->
+		                <div class="pswp__preloader">
+		                    <div class="pswp__preloader__icn">
+		                      <div class="pswp__preloader__cut">
+		                        <div class="pswp__preloader__donut"></div>
+		                      </div>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+		                <div class="pswp__share-tooltip"></div>
+		            </div>
+		            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+		            </button>
+		            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+		            </button>
+		            <div class="pswp__caption">
+		                <div class="pswp__caption__center"></div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Landscapes</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="#top" class="scrolly">Home</a></li>
+											<li><a href="#motivation" class="scrolly">Motivation</a></li>
+											<li><a href="#pictures" class="scrolly">Bilder</a></li>
+											<li><a href="#video" class="scrolly">Video</a></li>
+											<li><a href="#logo" class="scrolly">Logo</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>Landscape</h2>
+							<p>E-Portfolio<br>
+							für das Modul 152<br>
+							an der GBSSG</p>
+						</div>
+						<a href="#motivation" class="more scrolly">Mehr</a>
+					</section>
+
+				<!-- One -->
+					<section id="motivation" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Dieses Portfolio wurde erstellt von: <br>
+								Ronny Müller</h2>
+								<p>Ich habe das Thema Landschaft gewählt, weil ich kein technisches Thema wollte und mir schon gut vorstellen konnte, was für ein Video/Bilder ich erstelle.</p>
+							</header>
+							<ul class="icons major">
+								<li><span class="icon fa-photo major style1"><span class="label"></span></span></li>
+								<li><span class="icon fa-heart-o major style2"><span class="label"></span></span></li>
+								<li><span class="icon fa-camera major style3"><span class="label"></span></span></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="pictures" class="wrapper alt style2">
+						<h2 style="display: none;">Bilder</h2>
+						<section class="spotlight">
+							<div class="compare1"><img src="images/preview/pic01_a.jpg" alt=""/><img src="images/preview/pic01_b.jpg" alt=""/></div><div class="content">
+								<h2>Kleiner Wasserfall</h2>
+								<p>Dieser kleine Wasserfall in der Murgbachschlucht hat sich gut fotografieren lassen.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="compare2"><img src="images/preview/pic02_a.jpg" alt=""/><img src="images/preview/pic02_b.jpg" alt=""/></div><div class="content">
+								<h2>Klares Wasser</h2>
+								<p>Die Bäche rund um den  Walensee haben sehr klares Wasser.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="compare3"><img src="images/preview/pic03_a.jpg" alt=""/><img src="images/preview/pic03_b.jpg" alt=""/></div><div class="content">
+								<h2>Ein nebliger Tag am Walensee</h2>
+								<p>Der fjordähnliche Walensee gilt als der sauberste See der Schweiz. Nehmen sie ein erfrischendes Bad oder üben Sie Wassersportarten wie Tauchen, Segeln, Surfen, Kajakfahren und Wasserskifahren aus.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="compare4"><img src="images/preview/pic04_a.jpg" alt=""/><img src="images/preview/pic04_b.jpg" alt=""/></div><div class="content">
+								<h2>Ende der Schlucht</h2>
+								<p>Dies ist der tiefste Punkt der Schlucht in Murg.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="compare5"><img src="images/preview/pic05_a.jpg" alt=""/><img src="images/preview/pic05_b.jpg" alt=""/></div><div class="content">
+								<h2>Bach</h2>
+								<p>Dieser Bach mündet im Walensee.</p>
+							</div>
+						</section>
+					</section>
+
+				<!-- CTA -->
+					<section id="video" class="wrapper style4">
+						<div class="inner" style="max-width: 600px;">
+							<h2 id="videobereich" style="text-align: center;">
+								<iframe class="videoextern" src="https://www.youtube.com/embed/Qj8563DSQxc" allowfullscreen></iframe> <!-- https://www.youtube.com/embed/iVYSn5oaA48 -->
+								Wandervideo
+							</h2>
+						</div>
+						<div class="inner">
+							<p class="videotext">Ich habe das Video auf Youtube ausgelagert, weil es immer verfügbar ist, automatisch für mobile Endgeräte optimiert und man könnte theoretisch auch Werbung schalten. Das Video wurde im Murg-Wald aufgenommen.</p>
+						</div>
+					</section>
+
+					<!-- Logo -->
+					<section id="logo" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>
+									<img src="images/logo.svg" height="250" alt="M152 Logo"/>
+								</h2>
+								<p>Das Logo wurde von mir mit Hilfe der Open-Source Software Inkscape erstellt. Es wurde nur mit dem Kalligrafie- und dem Freihandzeichnentool erstellt. Es ist dadurch wahrscheinlich nicht das performanteste Logo.</p>
+							</header>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="http://www.twitter.com/alemone1" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="http://www.facebook.com/alemone" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="http://www.instagram.com/al3mon3" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="http://www.steamcommunity.com/id/al3mon3" class="icon fa-steam"><span class="label">Steam</span></a></li>
+							<li><a href="http://www.twitch.tv/alemoneTV" class="icon fa-twitch"><span class="label">Twitch</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Alemone</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="js/jquery-3.2.1.min.js"></script>
+			<script src="js/jquery.event.move.js"></script>
+			<script src="js/jquery.scrollex.min.js"></script>
+			<script src="js/jquery.scrolly.min.js"></script>
+			<script src="js/skel.min.js"></script>
+			<script src="js/util.js"></script>
+			<script src="js/main.js"></script>
+			<script src="js/jquery.twentytwenty.js"></script>
+			<script src="js/page.js"></script>
+
+			<script src="js/photoswipe.min.js"></script>
+			<script src="js/photoswipe-ui-default.min.js"></script>
+	</body>
+</html>
